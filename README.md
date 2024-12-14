@@ -52,6 +52,7 @@ Windows: Open a new Powershell or command prompt using _Run as Administrator_
 
 ```bash
 cd src
+dotnet restore
 dotnet run
 ```
 
@@ -59,6 +60,7 @@ Linux/macOS:
 
 ```bash
 cd src
+sudo dotnet restore
 sudo dotnet run
 ```
 
